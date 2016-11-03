@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+
+    <RadioGroup
+        android:id="@+id/main_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/home"
+            style="@style/MainButtom"
+            android:drawableTop="@drawable/mian_butttom_iv_home_selector"
+            android:text="首页" />
+
+        <LinearLayout style="@style/Line"></LinearLayout>
+
+        <RadioButton
+            android:id="@+id/type"
+            style="@style/MainButtom"
+            android:drawableTop="@drawable/mian_butttom_iv_type_selector"
+            android:text="分类" />
+
+
+        <LinearLayout style="@style/Line"></LinearLayout>
+        <RadioButton
+            android:id="@+id/brand"
+            style="@style/MainButtom"
+            android:drawableTop="@drawable/mian_butttom_iv_brand_selector"
+            android:text="品牌" />
+
+        <LinearLayout style="@style/Line"></LinearLayout>
+        <RadioButton
+            android:id="@+id/shoppingcat"
+            style="@style/MainButtom"
+            android:drawableTop="@drawable/mian_butttom_iv_shopping_selector"
+            android:text="购物车" />
+
+        <LinearLayout style="@style/Line"></LinearLayout>
+
+        <RadioButton
+            android:id="@+id/more"
+            style="@style/MainButtom"
+
+            android:drawableTop="@drawable/mian_butttom_iv_more_selector"
+            android:text="更多" />
+    </RadioGroup>
+
+</LinearLayout>
+

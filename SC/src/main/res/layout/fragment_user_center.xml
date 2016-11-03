@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F4">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/pic_21">
+
+        <ImageView
+            android:id="@+id/more_account_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/bg_return" />
+
+        <ImageView
+            android:id="@+id/more_account_setting"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pic_23" />
+
+        <ImageView
+            android:id="@+id/more_account_portrait"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"></ImageView>
+
+        <ImageView
+            android:id="@+id/more_account_label"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="205dp"
+            android:src="@drawable/pic_19" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="146dp"
+            android:layout_marginTop="150dp">
+
+            <TextView
+                android:id="@+id/more_account_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注册 "
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="#fff"></View>
+
+            <TextView
+                android:id="@+id/more_account_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 登录"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="#E54305"
+            android:layout_alignParentBottom="true">
+            <RadioButton
+                android:id="@+id/more_stay_payment"
+                android:drawableBottom="@drawable/pic_20"
+                android:text="待付款"
+                style="@style/MoreBottomRadioButton"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10dp"/>
+            <LinearLayout
+                style="@style/MoreBottomRadioButtonLine"></LinearLayout>
+            <RadioButton
+                android:id="@+id/more_stay_consignee"
+                android:text="待收货"
+                android:drawableBottom="@drawable/pic_18"
+                style="@style/MoreBottomRadioButton"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10dp"/>
+            <LinearLayout
+                style="@style/MoreBottomRadioButtonLine"></LinearLayout>
+            <RadioButton
+                android:id="@+id/more_stay_evaluate"
+                android:text="待评价"
+                android:drawableBottom="@drawable/pic_17"
+                style="@style/MoreBottomRadioButton"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10dp"/>
+            <LinearLayout
+                style="@style/MoreBottomRadioButtonLine"></LinearLayout>
+            <RadioButton
+                android:id="@+id/more_indent_indent"
+                android:text="订单查询"
+                android:drawableBottom="@drawable/pic_16"
+                style="@style/MoreBottomRadioButton"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10dp"/>
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="30px"
+        android:id="@+id/moew_my_indent"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#fff">
+        <TextView
+            style="@style/MoreAccountCentre"
+            android:text="我的订单" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/horizontalLine"></LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_my_collect"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#fff">
+        <TextView
+            style="@style/MoreAccountCentre"
+            android:text="我的收藏" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/MoreViewLine"></LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_me_balance"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#fff">
+        <TextView
+            style="@style/MoreAccountCentre"
+            android:text="我的余额" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/MoreViewLine"></LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_receive_address"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#fff">
+        <TextView
+            style="@style/MoreAccountCentre"
+            android:text="收货地址" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/MoreViewLine"></LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_me_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#fff">
+        <TextView
+            style="@style/MoreAccountCentre"
+            android:text="我的优惠劵" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/MoreViewLine"></LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_write_off"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#fff">
+        <TextView
+            style="@style/MoreAccountCentre"
+            android:text="退出当前账号" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+    <LinearLayout style="@style/MoreViewLine"></LinearLayout>
+</LinearLayout>

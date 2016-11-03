@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cardView_host_product"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    cardview:cardCornerRadius="10dp"
+    cardview:cardElevation="4dp"
+    cardview:contentPadding="5dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_food"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:background="@drawable/c_14"
+            android:src="@drawable/c_54"/>
+
+        <TextView
+            android:id="@+id/tv_food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hotproduct"
+            android:textSize="@dimen/limit_buy_tv_size"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="¥ 39.8"
+            android:textColor="@color/colorOragge"
+            android:textSize="36px"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

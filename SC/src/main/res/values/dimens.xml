@@ -1,0 +1,34 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="goods_dp">10dp</dimen>
+    <dimen name="content_size">18sp</dimen>
+    <dimen name="common_dp">10dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="activity_text_size">30px</dimen>
+    <dimen name="activity_text_second_size">26px</dimen>
+    <dimen name="activity_margin">7dp</dimen>
+
+    <dimen name="MoreTextSize">20sp</dimen>
+    <dimen name="MorepaddingTop">15dp</dimen>
+    <dimen name="Morepadding">12dp</dimen>
+    <dimen name="MoreTelephoneMarginTop">50dp</dimen>
+
+    <dimen name="title_dp">20dp</dimen>
+    <dimen name="large_dp">10dp</dimen>
+
+
+    <dimen name="common_tv_size">16sp</dimen>
+    <dimen name="product_iv_width">80dp</dimen>
+    <dimen name="product_iv_height">80dp</dimen>
+    <dimen name="limit_buy_tv_size">28px</dimen>
+    <dimen name="SpecialPrice_tv_size">42px</dimen>
+    <dimen name="common_px">10px</dimen>
+    <dimen name="mid_px">30px</dimen>
+    <dimen name="large_px">40px</dimen>
+    <dimen name="small_px">20px</dimen>
+    <dimen name="xlarge_px">48px</dimen>
+
+
+</resources>

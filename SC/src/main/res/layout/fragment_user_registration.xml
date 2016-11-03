@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
+
+    <include layout="@layout/top_head"></include>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_zhanghao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号 :"
+            android:padding="15dp"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/et_account"
+            style="@style/MoreAccountRegister"
+            android:layout_toRightOf="@id/tv_zhanghao"
+            android:hint="请输入手机号或邮箱"
+            android:singleLine="true"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别 :"
+            android:padding="15dp"
+            android:textSize="16sp"/>
+        <CheckBox
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cb_sex_man"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"/>
+        <CheckBox
+            android:id="@+id/cb_sex_woman"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/cb_sex_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_mima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码 :"
+            android:padding="15dp"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/et_password"
+            style="@style/MoreAccountRegister"
+            android:layout_toRightOf="@id/tv_mima"
+            android:hint="6-20位数字、字母、符号组合"
+            android:singleLine="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_querenmima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认密码 :"
+            android:padding="15dp"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/et_password_again"
+            style="@style/MoreAccountRegister"
+            android:layout_toRightOf="@id/tv_querenmima"
+            android:hint="6-20位数字、字母、符号组合"
+            android:singleLine="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        >
+        <TextView
+            android:id="@+id/more_verification_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验证码 :"
+            android:padding="15dp"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/et_verification"
+            style="@style/MoreAccountRegister"
+            android:layout_toRightOf="@id/more_verification_code"
+            android:singleLine="true"
+            android:hint="验证码"/>
+        <Button
+            android:id="@+id/more_click_verification_code"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="点击获取验证码"
+            android:layout_marginTop="6dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            android:background="@drawable/more_verification_code"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/more_bt_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:background="@drawable/more_register_selector"/>
+    <TextView
+        android:id="@+id/more_tv_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6000"
+        android:layout_marginLeft="230dp"
+        android:text="已有账号,去登录>>"/>
+</LinearLayout>

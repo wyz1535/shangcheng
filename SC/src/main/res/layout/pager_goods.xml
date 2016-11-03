@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="580px">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:text="天喔 江南特产鸭锁骨250g*2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:textSize="36px" />
+
+    <RelativeLayout
+
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="40px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="28px"
+            android:id="@+id/tv_goods_true_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="会员价："/>
+        <TextView
+            android:text="￥39.8"
+            android:textSize="48px"
+            android:textColor="@color/colorOragge"
+            android:layout_marginLeft="30px"
+            android:layout_toRightOf="@id/tv_goods_true_price"
+            android:id="@+id/tv_goods_trueprice"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c_30"/>
+        <TextView
+
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_goods_trueprice"
+            android:id="@+id/tv_goods_preferential_price"
+            android:layout_marginLeft="180px"
+            android:text="市场价:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            />
+        <TextView
+            android:id="@+id/tv_maketprice"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30px"
+            android:layout_toRightOf="@id/tv_goods_preferential_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            android:text="￥42.8"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="40px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="28px"
+            android:id="@+id/tv_goods_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品评价："/>
+        <ImageView
+            android:layout_marginLeft="30px"
+            android:layout_toRightOf="@id/tv_goods_comments"
+            android:id="@+id/iv_start"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c_30"/>
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_start1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c_30"
+            android:layout_alignTop="@id/iv_start"
+            android:layout_toRightOf="@id/iv_start"
+            android:layout_toEndOf="@id/iv_start" />
+        <ImageView
+            android:layout_centerVertical="true"
+        android:id="@+id/iv_start2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c_30"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_toRightOf="@id/iv_start1"
+        android:layout_toEndOf="@id/iv_start1" />
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_start3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c_30"
+            android:layout_below="@id/linearLayout2"
+            android:layout_toRightOf="@id/iv_start2"
+            android:layout_toEndOf="@id/iv_start2" />
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_start4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c_30"
+            android:layout_below="@id/linearLayout2"
+            android:layout_toRightOf="@id/iv_start3"
+            android:layout_toEndOf="@id/iv_start3" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_start"
+            android:id="@+id/tv_count"
+            android:layout_marginLeft="180px"
+            android:text="数量:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+
+        </LinearLayout>
+
+        <TextView
+            android:clickable="true"
+            android:background="@drawable/within_one_mouth_selector"
+            android:text="-"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="27dp"
+            android:id="@+id/tv_cut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_alignTop="@id/iv_start"
+            android:layout_toRightOf="@id/tv_count"
+            android:layout_toEndOf="@id/tv_count" />
+
+        <TextView
+            android:id="@+id/tv_goods_count"
+        android:background="@drawable/before_one_mouth_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_alignTop="@id/iv_start"
+            android:layout_toRightOf="@id/tv_cut"
+            android:layout_toEndOf="@id/tv_cut"
+             />
+        <TextView
+            android:clickable="true"
+            android:id="@+id/tv_add"
+            android:text="+"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/canceled_order_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/tv_goods_count"
+            android:layout_toEndOf="@id/tv_goods_count" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingTop="10px"
+        android:paddingBottom="10px"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="40px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/tv_look_storage"
+            android:textSize="28px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看库存："/>
+        <TextView
+            android:id="@+id/tv_area"
+            android:layout_toRightOf="@id/tv_look_storage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            android:text="北京仓（有货）"/>
+        <ImageView
+            android:id="@+id/iv_area"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/enter_righarrows_selector"
+            android:layout_width="30px"
+            android:layout_height="30px" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingTop="10px"
+        android:paddingBottom="10px"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="40px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/tv_customer_comment"
+            android:textSize="28px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户评价："/>
+        <TextView
+            android:id="@+id/tv_commentCount"
+            android:layout_toRightOf="@id/tv_customer_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            android:text="共有388人评论"/>
+
+    </RelativeLayout>
+</LinearLayout>

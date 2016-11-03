@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="96px"
+        android:background="#FF7624">
+
+        <ImageView
+            android:id="@+id/iv_account_back"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back_selector" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:text="我的优惠券"
+            android:textColor="#fff"
+            android:textSize="36px" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已有优惠券"
+        android:layout_margin="15dp"
+        android:textSize="@dimen/activity_text_size"
+        android:textColor="#444"
+        />
+
+
+
+        <ImageView
+            android:id="@+id/iv_privilege_01"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/h_26" />
+        <ImageView
+            android:id="@+id/iv_privilege_02"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/h_27" />
+        <ImageView
+            android:id="@+id/iv_privilege_03"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/h_28" />
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/iv_privilege"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="@dimen/activity_margin"-->
+            <!--android:text="您现在还没有添加任何优惠券额"-->
+            <!--android:textColor="#888" />-->
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:background="@drawable/youhui"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="点击添加优惠券"-->
+        <!--android:textColor="#fff"-->
+        <!--android:textSize="@dimen/activity_text_size" />-->
+
+</LinearLayout>

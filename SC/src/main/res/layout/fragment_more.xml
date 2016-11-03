@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/top_head"></include>
+    <RelativeLayout
+        android:id="@+id/user_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F4F4F4">
+        <TextView
+            style="@style/MoreInterfaceText"
+            android:text="用户中心" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+
+    <View style="@style/MoreViewLine"></View>
+
+    <RelativeLayout
+        android:id="@+id/browsing_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F4F4F4">
+        <TextView
+            style="@style/MoreInterfaceText"
+            android:text="浏览记录" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+
+    <View style="@style/MoreViewLine"></View>
+
+    <RelativeLayout
+        android:id="@+id/help_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F4F4F4">
+        <TextView
+            style="@style/MoreInterfaceText"
+            android:text="帮助中心" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+
+    <View style="@style/MoreViewLine"></View>
+
+    <RelativeLayout
+        android:id="@+id/user_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F4F4F4">
+        <TextView
+            style="@style/MoreInterfaceText"
+            android:text="用户反馈" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+
+    <View style="@style/MoreViewLine"></View>
+
+    <RelativeLayout
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F4F4F4">
+        <TextView
+            style="@style/MoreInterfaceText"
+            android:text="关        于" />
+        <ImageView style="@style/MoreClickText" />
+    </RelativeLayout>
+
+    <View style="@style/MoreViewLine"></View>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95px"
+        android:background="@drawable/more_telephone"
+        android:id="@+id/bt_telephone"
+        android:layout_marginLeft="80dp"
+        android:text="客服电话: 400-800-4752"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1000">
+
+    <include layout="@layout/top_head"></include>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_wire"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#2000"/>
+
+        <ImageView
+            android:id="@+id/more_favorite_pic"
+            android:layout_below="@+id/tv_wire"
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pic_6" />
+        <TextView
+            android:layout_toRightOf="@+id/more_favorite_pic"
+            android:layout_below="@+id/tv_wire"
+            android:id="@+id/more_text_name"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="好吃嘴"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/more_favorite_pic"
+            android:layout_below="@+id/more_text_name"
+            android:id="@+id/more_text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FF7624"
+            android:text="29.8"/>
+        <TextView
+            android:layout_toRightOf="@+id/more_text_price"
+            android:id="@+id/more_original_price"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4000"
+            android:text="38.8"/>
+        <View
+            android:layout_toRightOf="@+id/more_text_price"
+            android:layout_marginTop="48dp"
+            android:layout_width="30dp"
+            android:layout_marginLeft="6dp"
+            android:layout_height="1dp"
+            android:background="#000"></View>
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/more_text_price"
+            android:id="@+id/more_undefined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:text="代评价"/>
+
+    </RelativeLayout>
+</LinearLayout>

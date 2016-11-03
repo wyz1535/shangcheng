@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="click"
+            android:id="@+id/sales_promotion"
+            android:text="进入促销专题"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:onClick="click"
+            android:id="@+id/hot_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="热销"/>
+
+        <Button
+            android:onClick="click"
+            android:id="@+id/limit_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抢购"/>
+        <Button
+            android:onClick="click"
+            android:id="@+id/common_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"/>
+
+        <Button
+            android:id="@+id/new_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="新品上架"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>

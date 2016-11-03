@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F4">
+
+    <include layout="@layout/top_head"></include>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_shouhuoren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收货人 :"
+            android:padding="15dp"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/et_consignee"
+            style="@style/MoreAccountRegister"
+            android:layout_toRightOf="@id/tv_shouhuoren"
+            android:hint="必填"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_shouji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机 :"
+            android:padding="15dp"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/et_phone_num"
+            style="@style/MoreAccountRegister"
+            android:layout_toRightOf="@id/tv_shouji"
+            android:hint="必填"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_sheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="省市区 :"
+            android:padding="15dp"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/et_province"
+            style="@style/MoreAccountRegister"
+            android:layout_toRightOf="@id/tv_sheng"
+            android:hint="必填"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/tv_zhanghao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详细地址 :"
+            android:padding="15dp"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/et_account"
+            style="@style/MoreAccountRegister"
+            android:layout_toRightOf="@id/tv_zhanghao"
+            android:hint="必填"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+</LinearLayout>

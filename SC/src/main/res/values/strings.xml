@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">小吃屋</string>
+
+    <string name="hotproduct">热门单品</string>
+    <string name="time">仅剩:00小时00分00秒</string>
+    <string name="limit_buy">立即抢购</string>
+
+    <string name="sales_promotion">促销专题</string>
+
+
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itcast="http://schemas.android.com/apk/res/cn.wupeng.sc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1000"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_head"></include>
+
+    <cn.wupeng.sc.view.Toggle
+        android:layout_marginTop="10dp"
+        android:id="@+id/Toggle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itcast:tittle="开启省流量"
+        itcast:type="top" />
+    <cn.wupeng.sc.view.Toggle
+        android:id="@+id/Toggle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itcast:tittle="开启附近的人"
+        itcast:type="mid" />
+    <cn.wupeng.sc.view.Toggle
+        android:id="@+id/Toggle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itcast:tittle="开启定位"
+        itcast:type="mid" />
+    <cn.wupeng.sc.view.Toggle
+        android:id="@+id/Toggle4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itcast:tittle="开启摇一摇"
+        itcast:type="mid" />
+    <cn.wupeng.sc.view.Toggle
+        android:id="@+id/Toggle5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itcast:tittle="清理缓存"
+        itcast:type="bottom" />
+</LinearLayout>

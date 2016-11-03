@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#EEEEEE">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="1.若您还没有商城账号，请点击注册:\n  a. 打开商城首页，在右上方，点\n  击“免费注册”按钮\n  b. 进入到注册页面，请填写您的邮\n  箱、手机等信息完成注册."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="2.在这里购物能保证我们系统的安全吗?\n  答:\n  a.第三方卖家提供商品的交易中，\n  商城提供在线交易保障服务，保障\n  您已支付的货款安全。\n  b.2.您使用在线支付购买第三方卖\n  家提供的商品，支付成功后，在您\n  验收货物并完成“确认收货”操作\n  后，商城才会与卖家结算。"/>
+</LinearLayout>

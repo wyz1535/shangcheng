@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/iv_food"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_margin="@dimen/large_px"
+        android:background="@drawable/c_14"
+        android:src="@drawable/c_16"/>
+
+    <ImageView
+        android:id="@+id/iv_add_to_cart"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/mid_px"
+        android:src="@drawable/c_15"/>
+
+    <TextView
+        android:id="@+id/tv_goods_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_food"
+        android:layout_toRightOf="@+id/iv_food"
+        android:text="招牌原味牛头干80g"
+        android:textSize="@dimen/large_px"/>
+
+    <TextView
+        android:id="@+id/tv_goods_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_goods_name"
+        android:layout_toRightOf="@+id/iv_food"
+        android:text="68.00"
+        android:textColor="@color/colorOragge"
+        android:textSize="@dimen/xlarge_px"/>
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_food"
+        android:layout_below="@+id/tv_goods_price"
+        android:layout_toRightOf="@+id/iv_food"
+        android:text="一共1000人评论"
+        android:textSize="@dimen/small_px"/>
+
+
+</RelativeLayout>
